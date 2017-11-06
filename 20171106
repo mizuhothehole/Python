@@ -54,3 +54,22 @@ SyntaxError: invalid syntax
 >>> print "dsadsadasda "
 dsadsadasda 
 >>> 
+
+>>> a = array(10)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'array' is not defined
+>>> a = serial(10)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'serial' is not defined
+>>> a = array
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'array' is not defined
+>>> a = [1,2,3,4,5]
+>>> print a
+[1, 2, 3, 4, 5]
+>>> a = (1,2,3,3,3)
+>>> print a
+(1, 2, 3, 3, 3)
