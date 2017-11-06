@@ -1,0 +1,56 @@
+Try coding in python
+
+Last login: Tue Nov  7 06:38:59 on console
+ishiiryounoAir:~ ishiiaya$ python
+Python 2.7.10 (default, Feb  7 2017, 00:08:15) 
+[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print 1
+1
+>>> print 1L
+1
+>>> print 1f
+  File "<stdin>", line 1
+    print 1f
+           ^
+SyntaxError: invalid syntax
+>>> print 1F
+  File "<stdin>", line 1
+    print 1F
+           ^
+SyntaxError: invalid syntax
+>>> print 1A
+  File "<stdin>", line 1
+    print 1A
+           ^
+SyntaxError: invalid syntax
+>>> print 1L
+1
+>>> print "abc"
+abc
+>>> print `abc`
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'abc' is not defined
+>>> print 'abc'
+abc
+>>> print ''' adsadasdnv  123  
+...  dasdasdw '''
+ adsadasdnv  123  
+ dasdasdw 
+>>> print ''' ccca 12121 
+... casdwd 56 
+...  casas 3333333333333 
+... fefwef 754457 '''
+ ccca 12121 
+casdwd 56 
+ casas 3333333333333 
+fefwef 754457 
+>>> print '' dsadsadasda ''
+  File "<stdin>", line 1
+    print '' dsadsadasda ''
+                       ^
+SyntaxError: invalid syntax
+>>> print "dsadsadasda "
+dsadsadasda 
+>>> 
