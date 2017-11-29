@@ -1,0 +1,104 @@
+Array creation using numpy
+
+There are main functions to create them like:
+
+numpy.arange()
+numoy.array()
+numpy.linspace
+numpy.indices(())
+-----------------------------
+
+print (10)
+
+10
+
+print (10,)
+
+(10,)
+
+print (10,20)
+
+(10, 20)
+
+print ("102xxasd","dascw4")
+
+('102xxasd', 'dascw4')
+
+import numpy as np
+
+x=np.array([2,3,4,4,51])
+
+print x
+
+[ 2  3  4  4 51]
+
+import numpy as np
+
+x=np.array([1+2j])
+
+print x
+
+[ 1.+2.j]
+
+import numpy as np
+
+x=np.array([1j])
+
+print x
+
+[ 0.+1.j]
+
+import numpy as np
+
+x=1j
+
+y=2j
+
+z=x*y
+
+print z
+
+(-2+0j)
+
+import numpy as np
+
+x=np.arange(10)
+
+print x
+
+[0 1 2 3 4 5 6 7 8 9]
+
+import numpy as np
+
+x=np.arange(1,4,0.1)
+
+print x
+
+[ 1.   1.1  1.2  1.3  1.4  1.5  1.6  1.7  1.8  1.9  2.   2.1  2.2  2.3  2.4
+  2.5  2.6  2.7  2.8  2.9  3.   3.1  3.2  3.3  3.4  3.5  3.6  3.7  3.8  3.9]
+
+import numpy as np
+
+x = np.arange(2,10,1)
+
+print x
+
+[2 3 4 5 6 7 8 9]
+
+import numpy as np
+
+x = np.linspace(1,10,9)
+
+print x
+
+[  1.      2.125   3.25    4.375   5.5     6.625   7.75    8.875  10.   ]
+
+import numpy as np
+
+x = np.indices((3,4))
+
+print x[1]
+
+[[0 1 2 3]
+ [0 1 2 3]
+ [0 1 2 3]]
